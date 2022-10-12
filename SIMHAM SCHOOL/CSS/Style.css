@@ -1,0 +1,90 @@
+
+/* ul>li{
+    color: rgb(0, 0, 0);
+} */
+li~p{
+    color: indigo;
+}
+p~li{
+    color: rgba(248, 105, 89, 0.773);
+}
+*{
+    color: brown;
+}
+h4[id*="eq"]{
+    color: rgb(0, 225, 255);
+}
+
+h4[id$="q"]{
+    color: red;
+}
+p[class~="coffe"]{
+    color: blueviolet;
+}
+
+.coffe{
+    color: rgb(13, 255, 0);
+}
+span{
+    background-color: aquamarine;
+}
+ul{
+    border: 2px solid rgb(97, 165, 42);
+    text-align: center;
+    word-spacing: 5px;
+    background-color: rgb(215, 191, 183);
+    font-weight: bold;
+    border-radius: 1em;
+    
+   
+}
+.para{
+    border: 2px solid black;
+    /* width: 50%; */
+    height: 100;
+    font-family:'Times New Roman', Times, serif;
+    min-width: 25%;
+    max-width: 100%;
+    background-color: blanchedalmond;
+    word-spacing: 3px;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.3em;
+    
+   
+}
+.paradiv{
+    border: 2px solid rgb(0, 179, 255);
+    max-width: 75%; 
+    border-width: 5px 5px 5px 5px;
+    border-style: dashed;
+    border-top-style: double;
+    border-bottom-style: double;
+    padding:10px;
+    margin: 5px;
+}
+div a{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 1px 5px 1px;
+    font-size:1.2em;
+    background-color: rgba(255, 0, 255, 0.568);
+    color: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+}
+.mail{
+    margin: 5px;
+    padding: 1px 5px 1px;
+    font-size:1.2em;
+    background-color: rgba(187, 255, 0, 0.8);
+    color: rgb(255, 0, 157);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.list{
+    color: blueviolet;
+    display: inline;
+}

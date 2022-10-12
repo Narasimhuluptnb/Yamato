@@ -1,0 +1,75 @@
+body{
+    background-color: lightcyan;
+}
+/* .para{ 
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+    text-decoration: none;
+    font: weight 1px;;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+    justify-self:stretch;
+    text-align: center;
+    text-shadow: 1px 5px 5px yellowgreen;
+
+} */
+h4{
+    color: brown;
+    background-color: chartreuse;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h5{
+    font-weight: bold;
+}
+h4{
+    font-weight: normal;
+    font-style: italic;
+    font-stretch:condensed;
+}
+P{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+    background-color: rgb(122, 251, 255) ;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    text-decoration:line-through rgba(10, 241, 48, 0.837) dotted;
+    letter-spacing: 1px;
+    font-style:italic;
+    text-align: center;
+    border: 2px solid red;
+    border-radius:5px ;
+}
+h4::first-letter{
+    font-size: 2em;
+}
+a:visited{
+    color: aqua;
+}
+a:link{
+    color: brown;
+}
+a:hover{
+    color: maroon;
+    font-size: larger;
+    text-transform: uppercase;
+}
+p:hover{
+    color: blue ;
+    text-decoration: line-through;
+    
+
+}
+a:active{
+    color: black;
+    font-size: larger;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

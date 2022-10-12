@@ -1,0 +1,53 @@
+body{
+    background: url("/images/signup.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.regform{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 220px auto;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px 30px 20px;
+    font-size: 1.5em;
+}
+.regform h3{
+    color: rgba(234, 255, 0, 0.926);
+    text-align: center;
+}
+.textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px rgb(246, 10, 30);
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 10px 0px 20px 0px;
+    box-sizing: border-box;
+
+}
+
+input:focus{
+    background-color: aquamarine;
+}
+.btn{
+    text-align: center;
+}
+button{
+    font-size: 1.2em;
+    background-color: rgb(255, 161, 127);
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 10px;
+    
+}
+.radio input{
+    transform: scale(1.5);
+}
+button:hover{
+    color: darkred;
+    background-color: bisque;
+}

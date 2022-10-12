@@ -1,0 +1,44 @@
+li{
+    color: blue;
+    background-color: aqua;
+    width: 80px;
+    margin: 5px auto 5px auto;
+    padding: 3px;
+    font-style:italic;
+    border-radius: 5px;
+
+}
+ul{
+
+    background-color: rgba(0, 0, 0, 0.391);
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.paradiv{
+    border: 2px solid brown;
+    padding: 5px;
+    border-radius: 1em;
+    background-color: bisque;
+}
+p{
+    border:20px solid black;
+    text-align: justify;
+    word-spacing: 2px;
+    margin: 2px auto;
+    padding: 5px;
+    color: blueviolet;
+    width: 300px;
+    border-radius: 1em;
+    background-color: rgba(146, 237, 100, 0.395);
+    box-shadow: 10px 10px 20px maroon ;
+    -moz-box-shadow:10px 10px 20px maroon ;
+    -webkit-box-shaddow:10px 10px 15px maroon ;
+    border-image: url(/images/css-border-image-original.png) 20 round;
+}
+p::first-letter{
+    font-size: xx-large;
+    color: blue;
+}

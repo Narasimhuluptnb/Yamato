@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form </title>
+</head>
+<body>
+    <u><h2 style="color: rgb(19, 221, 19);">APPLICATION FORM</h2></u>
+    <form action="signup.html" method="get">
+        <div>
+            <label for="username">UserName</label>
+            <input type="text" name="UserName" id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required minlength="6">
+        </div>
+        <div>
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="date" name="dateofbirth" id="dateofbirth" min="2010-01-01" max="2017-01-01">
+        </div>
+        <div>
+            <label for="ph">Phone Number</label>
+            <input type="number" name="phonenumber" id="ph" maxlength="10" >
+        </div>
+        <div>
+            <label for="email">Email of the parent</label>
+            <input type="email" name="email" id="email">
+
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <select name="bloodgroup" id="bloodgroup">
+                <option value="">select blood group</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+                <option value="BOMBY">BOMBAY</option>
+            </select>
+        </div>
+        <input type="file" name="file" id="file">
+        <label for="file">Latest photo copy</label>
+        <div>
+            <label for="about">About</label>
+            <textarea name="about" id="about" cols="30" rows="10">Give some details of the student..</textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Above details are correct</label>
+        </div>
+        <div>
+            <button type="submit">Sign Up </button>
+            <button type="reset">Reset </button>
+            <input type="image" src="submit.jpg" width="100">
+        </div>
+        
+       
+    </form>
+</body>
+</html>

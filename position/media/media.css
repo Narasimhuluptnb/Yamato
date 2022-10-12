@@ -1,0 +1,20 @@
+.para1{
+    background:repeating-radial-gradient(green 10px,green 20px,yellow 10px,yellow 30px);
+}
+.para2{
+    background:repeating-radial-gradient(red 10px,red 20px,yellow 10px,yellow 30px);
+    
+   
+}
+.para3{
+    background:repeating-radial-gradient(rgb(0, 0, 255) 10px,rgba(0, 0, 255) 20px,yellow 10px,rgb(255, 255, 0) 30px);
+
+}
+@media (min-width:600px){
+    .container p{
+        width: 30%;
+        text-align: justify;
+        padding: 1%;
+        float:left;
+    }
+}

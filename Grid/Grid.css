@@ -1,0 +1,136 @@
+.container{
+    background-color: brown;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap:10px
+}
+
+.para{
+    background-color:khaki;
+    padding: 5px;
+    text-align: justify;
+    
+}
+.cont{
+    background-color: rgba(0, 139, 139, 0.834);
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* grid-auto-flow: column; */
+   
+    /* gap:5px; */
+}
+.hi{
+    color: mintcream;
+    background-color: chartreuse;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.one{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.five{
+    grid-row: span 2; 
+}
+.three{
+    /* grid-row: span 2; */
+   
+}
+.nine{
+    grid-column: span 3;
+}
+
+/* .layout{
+    background-color: bisque;
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+    
+}
+.header{
+    grid-column: span 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 10vh;
+    border-collapse: collapse;
+}
+.fotter{
+    grid-column: span 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 10vh;
+    border-collapse: collapse;
+}
+.sidebar1{
+    height: 80vh;
+    border: 1px solid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-collapse: collapse;
+
+}
+.sidebar2{
+    height: 80vh;
+    border: 1px solid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    border-collapse: collapse;
+
+}
+.main{
+    height: 80vh;
+    border: 1px solid;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    border-collapse: collapse;
+} */
+
+.layout div{
+    background-color: aqua;
+    font-size: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h h h"
+    "sl m m m sr"
+    "f f f f f";
+}
+.header{
+    grid-area:h;
+}
+.sidebar1{
+    grid-area: sl;
+    height: 80vh;
+}
+.sidebar2{
+    grid-area: sr;
+}
+.fotter{
+    grid-area: f;
+}
+.main{
+    grid-area: m;
+}

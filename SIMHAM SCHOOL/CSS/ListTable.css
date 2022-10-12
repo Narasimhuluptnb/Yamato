@@ -1,0 +1,27 @@
+ul{
+    list-style-type:square;
+    
+}
+tr:nth-child(even){
+    color: azure;
+    background-color: black;
+}
+table{
+    width: 300px;
+    margin: auto;
+    color: rgb(255, 0, 0);
+
+}
+th{
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    color: brown;
+}
+.amt{
+    text-align: center;
+}
+td{
+    border: 1px solid rgb(11, 11, 11);
+    border-collapse: collapse;
+}
